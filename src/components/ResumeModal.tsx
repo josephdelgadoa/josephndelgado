@@ -68,6 +68,31 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => {
                             </div>
                         </section>
 
+                        {/* Licenses & Certifications */}
+                        <section>
+                            <h3 className="text-lg font-bold uppercase tracking-wider mb-6 border-b border-gray-300 pb-1">Licenses & Certifications</h3>
+                            <div className="space-y-6">
+                                {/* @ts-ignore - We added certifications to RESUME_CONTENT which might not be typed yet if using strict interface */}
+                                {RESUME_CONTENT.certifications?.map((cert: any, index: number) => (
+                                    <div key={index} className="break-inside-avoid">
+                                        <div className="flex justify-between items-baseline mb-1">
+                                            <h4 className="text-lg font-bold text-gray-900">{cert.name}</h4>
+                                            <span className="text-gray-600 font-medium whitespace-nowrap ml-4">{cert.date}</span>
+                                        </div>
+                                        <div className="text-gray-700">
+                                            <p className="font-medium">{cert.issuer}</p>
+                                            {cert.credentialId && <p className="text-sm text-gray-500">Credential ID {cert.credentialId}</p>}
+                                            {cert.skills && (
+                                                <p className="text-sm text-gray-600 mt-1">
+                                                    <span className="font-semibold">Skills:</span> {cert.skills}
+                                                </p>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+
                         {/* Skills */}
                         <section>
                             <h3 className="text-lg font-bold uppercase tracking-wider mb-4 border-b border-gray-300 pb-1">Core Competencies</h3>

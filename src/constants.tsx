@@ -347,6 +347,88 @@ export const RESUME_CONTENT = {
                 <li>Monitored site-wide analytics and user feedback to implement data-driven optimizations in HTML5, CSS3, and jQuery, improving content discovery and usability across 11 city departments while ensuring compliance with WCAG accessibility standards.</li>
             </ul>
         }
+    ],
+    certifications: [
+        {
+            name: "Google UX Design Specialization",
+            issuer: "Grow with Google on Coursera",
+            date: "Sep 2023",
+            credentialId: "J2C47MQ976D8",
+            skills: "UX Research · Visual Storytelling · Usability · User Interface Prototyping · Information Architecture · Wireframe · Color Theory"
+        },
+        {
+            name: "Oil & Gas Industry Operations and Markets",
+            issuer: "Duke University",
+            date: "Sep 2023",
+            credentialId: "NUHT3RQNJ9PV"
+        },
+        {
+            name: "Python Basics: Automation and Bots",
+            issuer: "University of California, Davis",
+            date: "Sep 2023",
+            credentialId: "T3Q358RUS6MJ"
+        },
+        {
+            name: "20 Habits of Executive Leadership",
+            issuer: "LinkedIn",
+            date: "Oct 2023"
+        },
+        {
+            name: "Prompt Engineering: How to Talk to the AIs",
+            issuer: "LinkedIn",
+            date: "Aug 2023",
+            skills: "Generative AI"
+        },
+        {
+            name: "Agile User Experience Design and Research",
+            issuer: "LinkedIn",
+            date: "Jul 2023",
+            skills: "UX Research · Agile Methodologies"
+        },
+        {
+            name: "Introduction to Responsible AI Algorithm Design",
+            issuer: "LinkedIn",
+            date: "Jul 2023",
+            skills: "Algorithm Design"
+        },
+        {
+            name: "Responsible AI: Principles and Practical Applications",
+            issuer: "LinkedIn",
+            date: "Jul 2023",
+            skills: "Business Process Automation · Responsible AI · Artificial Intelligence (AI)"
+        },
+        {
+            name: "GPT-4: The New GPT Release and What You Need to Know",
+            issuer: "LinkedIn",
+            date: "Jun 2023",
+            skills: "Generative AI · GPT-4"
+        },
+        {
+            name: "Create High-Fidelity Designs and Prototypes in Figma",
+            issuer: "Google",
+            date: "Apr 2023",
+            skills: "User Experience"
+        },
+        {
+            name: "Build Wireframes and Low-Fidelity Prototypes",
+            issuer: "Google",
+            date: "Oct 2022"
+        },
+        {
+            name: "Conduct UX Research and Test Early Concepts",
+            issuer: "Google",
+            date: "Oct 2022"
+        },
+        {
+            name: "Start the UX Design Process: Empathize, Define, and Ideate",
+            issuer: "Google",
+            date: "Sep 2022"
+        },
+        {
+            name: "Foundations of User Experience (UX) Design",
+            issuer: "Google",
+            date: "Feb 2022"
+        }
     ]
 };
 
