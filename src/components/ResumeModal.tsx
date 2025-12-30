@@ -39,9 +39,9 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => {
                             <h1 className="text-5xl font-bold mb-2 uppercase tracking-tight">{RESUME_CONTENT.name}</h1>
                             <p className="text-xl text-gray-600 font-medium mb-4">{RESUME_CONTENT.title}</p>
                             <div className="flex gap-6 text-sm text-gray-600">
-                                <span>San Francisco, CA</span>
-                                <span>joseph@example.com</span>
-                                <span>(555) 123-4567</span>
+                                <span>{RESUME_CONTENT.location}</span>
+                                <span>{RESUME_CONTENT.email}</span>
+                                <span>{RESUME_CONTENT.phone}</span>
                             </div>
                         </header>
 

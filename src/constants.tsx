@@ -311,7 +311,10 @@ export const SERVICES: Service[] = [
 ];
 
 export const RESUME_CONTENT = {
-    name: "Joseph N. Delgado",
+    name: "Joseph N Delgado",
+    location: "39639 Leslie St. apt 181, Fremont, CA 94538",
+    email: "joseph@josephndelgado.com",
+    phone: "+1 954-758-0512",
     title: "Senior UX/UI Designer & AI Product Specialist",
     summary: "Over 20 years of experience bridging the gap between design and engineering. Specialized in building intuitive, AI-driven digital experiences that solve complex problems. Passionate about luxury aesthetics and pixel-perfect implementation.",
     experience: [
