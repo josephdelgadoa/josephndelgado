@@ -328,6 +328,24 @@ export const RESUME_CONTENT = {
                 <li>Drove product strategy and influenced the roadmap by conducting comprehensive user research (usability testing, interviews) and presenting design rationale and prototypes to C-level stakeholders to secure buy-in.</li>
                 <li>Accelerated engineering velocity and ensured product-wide consistency by establishing and scaling a design system from the ground up, utilizing React.js and Ant Design components.</li>
             </ul>
+        },
+        {
+            role: "Mobile UI/UX Designer",
+            company: "Trupik, Inc · Sunnyvale, California",
+            period: "Jul 2014 - Oct 2014",
+            description: <ul className="list-disc pl-5 mt-2 space-y-2">
+                <li>Owned the complete UI/UX design process for Android and iOS mobile applications, from initial wireframes and low-fidelity mockups in Sketch to high-fidelity, interactive prototypes in InVision.</li>
+                <li>Collaborated directly with developers and product managers to define user flows and translate business requirements into compelling mobile-first experiences.</li>
+            </ul>
+        },
+        {
+            role: "Web Specialist",
+            company: "City of Sunnyvale · Sunnyvale, California",
+            period: "Mar 2014 - Jun 2014",
+            description: <ul className="list-disc pl-5 mt-2 space-y-2">
+                <li>Directed the UI/UX strategy for the city's entire digital presence, including a full website redesign and multi-channel public engagement, collaborating directly with city executives and IT leadership to define strategic goals.</li>
+                <li>Monitored site-wide analytics and user feedback to implement data-driven optimizations in HTML5, CSS3, and jQuery, improving content discovery and usability across 11 city departments while ensuring compliance with WCAG accessibility standards.</li>
+            </ul>
         }
     ]
 };
