@@ -316,23 +316,16 @@ export const RESUME_CONTENT = {
     summary: "Over 20 years of experience bridging the gap between design and engineering. Specialized in building intuitive, AI-driven digital experiences that solve complex problems. Passionate about luxury aesthetics and pixel-perfect implementation.",
     experience: [
         {
-            role: "Senior UX/UI Designer & AI Specialist",
-            company: "Tech Innovators Inc.",
-            period: "2020 - Present",
-            description: "Leading design for core AI products, establishing design systems, and mentoring junior designers."
-        },
-        {
-            role: "Lead Product Designer",
-            company: "Creative Solutions LLC",
-            period: "2015 - 2020",
-            description: "Spearheaded the redesign of the flagship e-commerce platform, resulting in 200% growth."
-        },
-        {
-            role: "Frontend Developer / Designer",
-            company: "WebWorks Agency",
-            period: "2010 - 2015",
-            description: "Developed custom websites for high-profile clients using early responsive web technologies."
-        },
+            role: "Sr. Software Engineer (UI/UX Specialist)",
+            company: "Afficient Academy · San Jose, California (On-site)",
+            period: "Nov 2014 - Present",
+            description: <ul className="list-disc pl-5 mt-2 space-y-2">
+                <li>Spearheaded the UX/UI design for the flagship Afficient SAT Test Preparation platform, orchestrating the entire user journey from diagnostic assessment to a personalized, adaptive learning path, which became a key new product line for the company.</li>
+                <li>Designed and launched specialized, data-driven applications, including the Afficient Manager (an enterprise tool for educators) and the MyAA learning platform, translating complex user needs into intuitive interfaces that improved workflow efficiency.</li>
+                <li>Drove product strategy and influenced the roadmap by conducting comprehensive user research (usability testing, interviews) and presenting design rationale and prototypes to C-level stakeholders to secure buy-in.</li>
+                <li>Accelerated engineering velocity and ensured product-wide consistency by establishing and scaling a design system from the ground up, utilizing React.js and Ant Design components.</li>
+            </ul>
+        }
     ]
 };
 

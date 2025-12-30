@@ -62,7 +62,7 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => {
                                             <span className="text-gray-600 font-medium">{job.period}</span>
                                         </div>
                                         <p className="text-lg text-gray-700 font-medium mb-2">{job.company}</p>
-                                        <p className="text-gray-800 leading-relaxed">{job.description}</p>
+                                        <div className="text-gray-800 leading-relaxed">{job.description}</div>
                                     </div>
                                 ))}
                             </div>
